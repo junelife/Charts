@@ -130,6 +130,12 @@ open class AxisRendererBase: Renderer
             interval = floor(10.0 * Double(intervalMagnitude))
         }
         
+        // Interval must be a multiple of granularity
+        if axis.granularityEnabled
+        {
+            interval = ceil(interval / axis.granularity) * axis.granularity
+        }
+        
         var n = axis.centerAxisLabelsEnabled ? 1 : 0
         
         // force label count
