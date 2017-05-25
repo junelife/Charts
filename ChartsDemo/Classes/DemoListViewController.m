@@ -51,6 +51,11 @@
 
     self.itemDefs = @[
                       @{
+                          @"title": @"Nearly Flat Line Chart",
+                          @"subtitle": @"A nearly flat line with many values.",
+                          @"class": NearlyFlatLineChartViewController.class
+                          },
+                      @{
                           @"title": @"Line Chart",
                           @"subtitle": @"A simple demonstration of the linechart.",
                           @"class": LineChart1ViewController.class

@@ -84,6 +84,8 @@
 		5BEAED3C1ABC199F0013F194 /* ColoredLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3A1ABC199F0013F194 /* ColoredLineChartViewController.xib */; };
 		5BEAED401ABC1AC60013F194 /* SinusBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */; };
 		5BEAED411ABC1AC60013F194 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */; };
+		D85927E11ED7836B003460CB /* nearly-flat.json in Resources */ = {isa = PBXBuildFile; fileRef = D85927E01ED7836B003460CB /* nearly-flat.json */; };
+		D85927E41ED783D9003460CB /* NearlyFlatLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85927E31ED783D9003460CB /* NearlyFlatLineChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,6 +237,8 @@
 		5BEAED3D1ABC1AC60013F194 /* SinusBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinusBarChartViewController.h; sourceTree = "<group>"; };
 		5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinusBarChartViewController.m; sourceTree = "<group>"; };
 		5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusBarChartViewController.xib; sourceTree = "<group>"; };
+		D85927E01ED7836B003460CB /* nearly-flat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nearly-flat.json"; sourceTree = "<group>"; };
+		D85927E31ED783D9003460CB /* NearlyFlatLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearlyFlatLineChartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,6 +346,7 @@
 		5B8EAF2E1AB32E15009697AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D85927E01ED7836B003460CB /* nearly-flat.json */,
 				5B8EAF2F1AB32E15009697AA /* Images.xcassets */,
 				5B43161E1AB8D8AE0009FCAA /* app-icon */,
 				5B4316301AB8D8B70009FCAA /* launch-image */,
@@ -436,6 +441,7 @@
 				5BEAED181ABBFB340013F194 /* StackedBarChartViewController.h */,
 				5BEAED191ABBFB340013F194 /* StackedBarChartViewController.m */,
 				5BEAED1A1ABBFB340013F194 /* StackedBarChartViewController.xib */,
+				D85927E31ED783D9003460CB /* NearlyFlatLineChartViewController.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -571,6 +577,7 @@
 				5BD47E661ABB424E008FCEC6 /* BarChartViewController.xib in Resources */,
 				5BDEDC421ABB7F73007D3A60 /* HorizontalBarChartViewController.xib in Resources */,
 				5BDEDC481ABB871E007D3A60 /* CombinedChartViewController.xib in Resources */,
+				D85927E11ED7836B003460CB /* nearly-flat.json in Resources */,
 				5B4316371AB8D8B70009FCAA /* Default-736h@3x.png in Resources */,
 				5BE673951D5B4E0900A87BA2 /* LineChartTimeViewController.xib in Resources */,
 				5B4316291AB8D8AE0009FCAA /* Icon-40@2x.png in Resources */,
@@ -622,6 +629,7 @@
 				5BEAED1D1ABBFB340013F194 /* StackedBarChartViewController.m in Sources */,
 				5BD47E601ABB3C91008FCEC6 /* LineChart2ViewController.m in Sources */,
 				5B57BBB51A9B26AA0036A6CC /* main.m in Sources */,
+				D85927E41ED783D9003460CB /* NearlyFlatLineChartViewController.swift in Sources */,
 				5BEAED361ABC192F0013F194 /* RadarChartViewController.m in Sources */,
 				5B9624411B38608C007763E2 /* NegativeStackedBarChartViewController.m in Sources */,
 			);
